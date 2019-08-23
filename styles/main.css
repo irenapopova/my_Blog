@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Handlee Regular'), local('Handlee-Regular'), url(https://fonts.gstatic.com/s/handlee/v7/-F6xfjBsISg9aMakPm3wowtKzig.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merienda'), local('Merienda-Regular_0_wt'), url(https://fonts.gstatic.com/s/merienda/v7/gNMHW3x8Qoy5_mf8uWMFMIqY_svh.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bad Script Regular'), local('BadScript-Regular'), url(https://fonts.gstatic.com/s/badscript/v7/6NUT8F6PJgbFWQn47_x7pOskzP9Ddt0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.navbar {
+  padding: 0 8px 0 16px;
+  background-color: #050a30;
+}
+
+.bg-dark {
+  background-color: #050a30 !important;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+}
+
+#title {
+  font-family: 'Handlee', 'Merienda', cursive;
+  color: #ffffff;
+  vertical-align: middle;
+  font-size: 35px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  font-family: 'Handlee', 'Merienda', cursive;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #7ec8e3;
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #7ec8e3;
+}
+
+/* remove navbar button stying */
+.navbar-toggler {
+  background: none;
+  border: none;
+}
+  
+/* remove the blue outline when active or focused */
+.navbar-toggler:active, .navbar-toggler:focus {
+  outline: 0;
+}
+
+.carousel-caption {
+  font-family: "Bad Script", 'Merienda', cursive;
+  font-size: 1.2rem;
+}
+
+/* TO DO: how to customize burger button icons color?; */
+
+main {
+  padding-top: 62px;
+}
+
+main #container-home {
+  max-width: 100%;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.card {
+  height: 100%;
+  max-height: 50rem;
+}
+
+.card-title {
+  min-height: 3rem;
+}
+
+i.fa {
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 0.8rem;
+  opacity: 0.7;
+}
+
+i.fa:hover {
+  opacity: 1;
+}
+
+
+/* About page */
+#container-about {
+  padding-top: 2rem;
+}
+
+#container-about p{
+  font-size: 17px;
+}
+
+#container-about .bio {
+  max-width: 25rem;
+  font-family: 'Handlee', cursive;
+}
+
+#photo {
+  max-height: 20rem;
+  width: auto;
+}
+
+h3 {
+  font-family: 'Handlee', 'Merienda', cursive;
+}
+
+.publication-link {
+  font-family: 'Handlee', 'Merienda', cursive;
+  font-size: 1.4rem;
+}
+
+.publication-link strong{  
+  color: #000000;
+}
+
+.publication-link a{  
+  color: #7ec8e3;
+}
+
+/* Contact */
+#container-contact {
+  background-color: #e2e8f0;
+
+}
+
+.contact-form {
+  margin: 50px 2rem;
+  padding: 1.5rem;
+  background: #7ec8e3;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: 'Handlee', 'Merienda', cursive;
+  box-shadow: 0px 10px 18px #8c7ee3;
+}
+
+.btn-lg {
+  color: ;
+  background-color: #7ee399;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-lg:hover {
+  background-color: #48ca6b;
+}
+
+.col-center {
+  margin: 10px auto;
+}
+
+/* Blog */
+.blog-post {
+  padding: 2rem;
+}
+
+.blog-post .row {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border: 1px solid #050a30;
+  border-radius: 5px;
+}
+
+.blog-post .col {
+  max-height: 30rem;
+  object-fit: fill;
+  overflow: hidden;
+}
+
+.blog-post img {
+  border-radius: 8px;
+}
+
+.blog-post a {
+  color: #000c66;
+}
+
+.blog-post a:hover {
+  color: #7ec8e3;
+}
+
+.justify-center {
+  text-align: justify;
+}
+
+.pagination .page-item a {
+  color: #7ec8e3;
+}
+.pagination .page-item.active>a {
+  background-color: #7ec8e3;
+  border-color: #e0dedc;
+}
+
+
+
+
+
